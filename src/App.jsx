@@ -136,7 +136,7 @@ const App = () => {
               <div className="w-1/2 h-1/2 bg-[#FBBC05]"></div>
               <div className="w-1/2 h-1/2 bg-[#EA4335]"></div>
             </div>
-            <span className="text-xl font-medium text-white">Pranav<span className="text-[#4285F4] font-bold italic">.dev</span></span>
+            <span className="text-xl font-medium text-white">Pranav<span className="text-[#4285F4] font-bold italic">.Dakle</span></span>
           </a>
           <div className="hidden md:flex space-x-8 text-sm font-medium items-center">
             <a href="#philosophy" className="text-gray-300 hover:text-white transition">Philosophy</a>
