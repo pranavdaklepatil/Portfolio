@@ -181,7 +181,7 @@ const App = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4 no-print">
               <a href="#projects" className="bg-white text-black px-8 py-4 rounded-full font-medium hover:scale-105 transition shadow-xl">Explore My Work</a>
-              <a href="mailto:hello@codzy.tech" className="bg-transparent border border-gray-700 text-white px-8 py-4 rounded-full font-medium hover:bg-gray-800 transition">Hire Me as Freelancer</a>
+              <a href="mailto:pranavdakle445@gmail.com" className="bg-transparent border border-gray-700 text-white px-8 py-4 rounded-full font-medium hover:bg-gray-800 transition">Hire Me as Freelancer</a>
             </div>
           </div>
         </header>
@@ -352,7 +352,7 @@ const App = () => {
                   Open for Hire
                 </div>
                 <p className="text-xs text-gray-500 mb-4">Interested in DevOps roles or custom freelance automation projects.</p>
-                <a href="mailto:hello@codzy.tech" className="text-xs font-bold text-[#4285F4] hover:underline">Start a Conversation →</a>
+                <a href="mailto:pranavdakle445@gmail.com" className="text-xs font-bold text-[#4285F4] hover:underline">Start a Conversation →</a>
               </div>
             </div>
           </div>
