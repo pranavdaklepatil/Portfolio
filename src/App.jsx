@@ -280,8 +280,8 @@ const App = () => {
                 items={[
                   { n: "Python (FastAPI)", s: "python" },
                   { n: "C++ Core", s: "cplusplus" },
-                  { n: "JavaScript (React)", s: "javascript" },
-                  { n: "Java Development", s: "oracle" }
+                  { n: "JavaScript ", s: "javascript" },
+                  { n: "Java ", s: "oracle" }
                 ]}
               />
               <StackCategory
