@@ -52,19 +52,16 @@ const App = () => {
 
   // Resume Handler: Opens in new tab and triggers download
   const handleDownloadResume = () => {
-    const resumeUrl = '/PranavDakle_Resume.pdf';
+  const resumeUrl = 'https://raw.githubusercontent.com/pranavdaklepatil/portfolio/main/PranavDakle_Resume.pdf';
 
-    // Open in new tab
-    window.open(resumeUrl, '_blank');
-
-    // Force download
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.setAttribute('download', 'PranavDakle_Resume.pdf');
-    document.body.appendChild(link);
-    link.click();
-    link.parentNode.removeChild(link);
-  };
+  // Create hidden link to trigger download
+  const link = document.createElement('a');
+  link.href = resumeUrl;
+  link.setAttribute('download', 'PranavDakle_Resume.pdf');
+  document.body.appendChild(link);
+  link.click();
+  link.parentNode.removeChild(link);
+};
 
   // Intersection Observer for scroll animations
   useEffect(() => {
